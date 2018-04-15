@@ -92,8 +92,17 @@ form {
 
 #aboutus {
     color: white;
+    font-size: 15px;
+    padding-right: 150px;
+    padding-left: 150px;
+    text-align: center;
 }
 
 .table-hover thead tr:hover th, .table-hover tbody tr:hover td {
     background-color: white;
+}
+
+
+#contactus {
+    color: white;
 }
