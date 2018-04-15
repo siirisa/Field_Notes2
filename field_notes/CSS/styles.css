@@ -65,11 +65,6 @@ form {
     color: white;
   }
 
-
-p {
-    color: white;
-  }
-
 .logo {
   float: right;
   padding-right: 20px;
@@ -99,3 +94,6 @@ p {
     color: white;
 }
 
+.table-hover thead tr:hover th, .table-hover tbody tr:hover td {
+    background-color: white;
+}
