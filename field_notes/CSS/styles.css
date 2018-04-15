@@ -1,10 +1,18 @@
-h1 {
+h3 {
   color: white;
   text-align: center;
   font-size: 50px;
 }
 
-h3 {
-  color: white;
+
+@fontface {
+  font-family: "WildYouth-Regular";
+    src: url("/field_notes/css/WildYouth-Regular.otf") format("opentype");
+}
+
+h1 {
+  font-family: "WildYouth-Regular";
   text-align: center;
+  font-size: 50px;
+  color: white;
 }
