@@ -53,19 +53,30 @@ h1 {
   }
 
 form {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 230px;
+    padding-left: 230px;
     padding-bottom: 50px;
     color: white;
   }
 
 
-  p {
+p {
     color: white;
   }
-
 
 .logo {
   float: right;
   padding-right: 20px;
+}
+.btn {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.btn:hover {
+    color: black;
+    background: transparent;
+    text-decoration: none;
 }
