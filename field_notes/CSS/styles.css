@@ -1,7 +1,7 @@
-h3 {
+h6 {
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 
@@ -11,8 +11,13 @@ h3 {
 }
 
 h1 {
-  font-family: "WildYouth-Regular";
   text-align: center;
-  font-size: 50px;
+  font-size: 100px;
   color: white;
+  text-transform; lowercase;
 }
+
+
+.lowercase {
+  text-transform: lowercase;
+  }
