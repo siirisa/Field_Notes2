@@ -4,6 +4,12 @@ h6 {
   font-size: 20px;
 }
 
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 27px;
+}
+
 
 @fontface {
   font-family: "WildYouth-Regular";
@@ -80,3 +86,16 @@ p {
     background: transparent;
     text-decoration: none;
 }
+
+
+#fieldtable {
+    color: grey;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding: 0.5px;
+}
+
+#aboutus {
+    color: white;
+}
+
