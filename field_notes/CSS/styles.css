@@ -63,6 +63,7 @@ h6 {
 .lowercase {
   text-transform: lowercase;
   }
+
 /* backgrounds */
 form {
     padding-right: 230px;
@@ -70,6 +71,7 @@ form {
     padding-bottom: 0px;
     color: white;
   }
+
 /* logo at the top of the page */
 .logo {
   float: right;
@@ -89,6 +91,7 @@ form {
     background: transparent;
     text-decoration: none;
 }
+
 /* text in about us section */
 #aboutus {
     color: white;
