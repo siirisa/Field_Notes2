@@ -102,10 +102,5 @@ img.fieldphotos {
 }
 
 .hideme {
-    opacity: 1;
-    transition: opacity 1s;
-}
-
-hideme.visible {
-    opacity: 1;
+    opacity: 0;
 }
