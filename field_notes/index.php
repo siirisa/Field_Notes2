@@ -1,21 +1,17 @@
 <?php
-if(!isset($_POST['submit']))
+if(isset($_POST['submit'])){
+    $to = "carolinanicoletti123@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $name . " . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
 
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$message = $_POST['message'];
-
-$email_from = 'ses55@bath.ac.uk';
-$email_subject = "New Form submission";
-$email_body = "You have received a new message from the user $name.\n".
-    "Here is the message:\n $message".
-
-$to = "carolinanicoletti123@gmail.com";
-$headers = "From: $email_from \r\n";
-$headers .= "Reply-To: $visitor_email \r\n";
-
-mail($to,$email_subject,$email_body,$headers);
-
-header('Location: href="thank_you.html");
-
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+    }
 ?>
