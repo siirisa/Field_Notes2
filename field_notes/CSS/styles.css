@@ -107,10 +107,6 @@ img.fieldphotos {
 
 }
 
-/* text fade on home page */
-.hideme {
-    opacity: 0;
-}
 /* scroll up button in home page */
 #myBtn {
     display: none; /* Hidden by default */
