@@ -34,20 +34,20 @@ h6 {
 }
 .fa-facebook {
   background: transparent;
-  color: grey;
+  color: white;
 }
 
 .fa-twitter {
   background: transparent;
-  color: grey;
+  color: white;
 }
 .fa-instagram {
   background: transparent;
-  color: grey;
+  color: white;
 }
 .fa-pinterest {
   background: transparent;
-  color: grey;
+  color: white;
 }
 .lowercase {
   text-transform: lowercase;
@@ -103,4 +103,8 @@ img.fieldphotos {
 
 .hideme {
     opacity: 0;
+}
+
+#social {
+    color: white;
 }
