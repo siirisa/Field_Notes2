@@ -74,7 +74,7 @@ form {
 
 /* logo at the top of the page */
 .logo {
-  float: right;
+  float: right top;
   padding-right: 20px;
 }
 
