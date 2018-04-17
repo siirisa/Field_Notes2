@@ -143,6 +143,3 @@ img.fieldphotos {
     color: black;
     opacity: 1; /* Add a dark-grey background on hover */
 }
-.navbar-item {
-  overflow-x:visible;
-}

@@ -16,6 +16,8 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-function myFunction() {
-    alert("Thanks for submitting your form!");
-}
+
+
+$('[data-toggle=collapse]').hover(function (e) {
+  $(this).click();
+});
